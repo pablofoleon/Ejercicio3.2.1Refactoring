@@ -4,7 +4,7 @@ Ejercicio 1
 
 Introducir por teclado dos palabras e indicar cuál de ellas es la más corta, es decir, la
 que contiene menos caracteres.
-
+Arreglados los nombres de las variables e indentado el codigo.
 Ejercicio 2
 
 Introducir por teclado un número n; a continuación solicitar al usuario que teclee n
