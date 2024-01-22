@@ -5,17 +5,16 @@ import java.util.Random;
 public class Ejercicio3 {
 	public static void main(String[] args) {
 
-        char[] t = new char[20];
+        char[] tablaCaracteres = new char[20];
         Random random = new Random();
         String vocales = "aeiou";
 
         for (int i = 0; i < t.length; i++) {
-
-            int in = random.nextInt(vocales.length());
-            t[i] = vocales.charAt(in);
+            int caracterAleatorio = random.nextInt(vocales.length());
+            tablaCaracteres[i] = vocales.charAt(in);
         }
     
-        int[] can = new int[5];
+        int[] caracteres = new int[5];
         for (char c : t) {
             switch (c) {
                 case 'a':
@@ -36,8 +35,8 @@ public class Ejercicio3 {
             }
         }
         System.out.println("Frecuencia de vocales:");
-        System.out.println("a: " + can[0]);
-        System.out.println("e: " + can[1]);
+		System.out.println("a: " + can[0]);
+		System.out.println("e: " + can[1]);
         System.out.println("i: " + can[2]);
         System.out.println("o: " + can[3]);
         System.out.println("u: " + can[4]);
